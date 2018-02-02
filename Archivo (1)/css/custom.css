@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+body{
+    font-family: 'Lora', serif;
+}
+/*
+.bgcolor-1{
+    background-color: #E0D8B0;
+}
+*/
+.bgcolor-2{
+    background-color: #F3EAE1;
+}
+
+
+.bgcolor-3{
+    background-color: #BEAA57;
+}
+
+/*
+.opacity{
+    opacity: .6;
+}
+*/
+.p10{
+    padding: 10px;
+}
+/*
+.bg-castle{
+    background-image: url("../img/westmister.png");
+    background-position: center;
+    background-size:cover
+
+}
+*/
+.npl{
+    padding-left:0 !important;
+}
+
+.npr{
+    padding-right:0 !important;
+}
+
+.navbar-wrapper{
+    border-bottom: solid 1px #000;
+}
+
+.navbar-default{
+    background-color: transparent;
+}
+
+.navbar {
+    min-height: 80px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-link{
+    margin-top: 10px;
+    font-weight: bold;
+    color: #000 !important;
+    font-size: 2rem;
+}
+
+.navbar .active a{
+    background-color: transparent !important;
+    font-weight: bolder;
+    border-bottom: 2px solid #BEAA57;
+    display: inline-block;
+}
+.center-block{
+    margin: 0 auto !important;
+    display: block !important;
+    float: none !important;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: none;
+}
+.section-divider {
+    margin: 10px 0; /* Space out the Bootstrap <hr> more */
+}
+
+.section-inner{
+    padding: 20px 0px 50px 0px ;
+}
+
+.section-inner p{
+    padding: 10px 60px;
+}
+
+.section-inner h2{
+    text-align: center;
+    color: #000;
+    margin: 30px;
+    text-decoration: underline;
+    text-decoration-color: #BEAA57 ;
+    text-decoration-line: underline;
+    text-decoration-skip: ink;
+}
+
+.carrusel-item{
+    padding: 5px;
+}
+
+.carrusel-item img{
+    width: 100%;
+}
+
+.submit_button{
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    float: none;
+    display: block;
+    width: 30%;
+    color: #000;
+    font-size: 2rem;
+}
+
+.newsletter_form input{
+    font-size: 2rem;
+    border-radius: 0 !important;
+
+}
+
+#newsletter-secction .logo{
+    margin-top: 50% !important;
+
+}
+
+#newsletter-secction .bridge{
+    margin-top: 15% !important;
+}
+
+.newsletter-secction{
+  background: #e5c695;
+}
+
+#footer{
+    background-color: #000;
+    min-height: 100px;
+    color:#FFF;
+    position: static;
+    clear: both;
+}
+
+#footer img{
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
