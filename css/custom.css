@@ -2,12 +2,25 @@
     font-family: 'Soria';
     src: url('../fonts/soria-font.ttf');
 }
-body{
+
+#navbar, footer {
     font-family: 'Soria', serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+body{
+    font-family: 'helvetica', sans-serif;
+    letter-spacing:normal;
+}
+
+body  h2{
+    font-family: 'Soria', serif;
+    letter-spacing: .5px;
 }
 
 .bgcolor-1{
     background-color: rgba(229, 198, 149,0.6);
+    width: auto;
 }
 
 .bgcolor-2{
@@ -79,6 +92,11 @@ hr {
     border: 0;
     border-top: none;
 }
+
+.content-wrapper{
+    min-height: calc(100vh - 280px);
+}
+
 .section-divider {
     margin: 10px 0; /* Space out the Bootstrap <hr> more */
 }
@@ -137,14 +155,16 @@ hr {
     background-color: #000;
     min-height: 100px;
     color:#FFF;
-    position: static;
-    clear: both;
+    clear:both;
 }
 
 #footer img{
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
+
 
 .contact-title{
     text-align: center;
@@ -169,6 +189,10 @@ hr {
     font-size: 2rem;
     float: right;
     margin-right: 10px;
+}
+
+.bottom-menu{
+    padding: 20px;
 }
 
 @media (max-width: 768px) {
@@ -210,6 +234,24 @@ hr {
         font-size: 2rem;
         float: none;
         margin:0 auto;
+    }
+
+    #footer ul{
+        padding: 0;
+        margin: 0;
+    }
+    #footer li{
+        text-align: center;
+        list-style: none;
+        margin: 10px;
+
+    }
+
+    #footer img{
+        text-align: center;
+        width: 30%;
+        display: block;
+        margin-top: 10px;
     }
 
 
