@@ -328,10 +328,8 @@
                         email: $("#email").val()
                     },
                     success: function (result) {
-                        if (result.respond) {
                             document.getElementById("newsletter-form").reset();
                             alert('Your Info was sent, Thanks!');
-                        }
                     }
                 });
 
