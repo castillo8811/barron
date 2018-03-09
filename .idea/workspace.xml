@@ -156,17 +156,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendmail.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sendmail.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sendmail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="254">
+              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendMailChimp.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sendMailChimp.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sendMailChimp.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="459">
@@ -331,12 +331,12 @@
       <workItem from="1520356440913" duration="339000" />
       <workItem from="1520392241149" duration="466000" />
       <workItem from="1520461784297" duration="69000" />
-      <workItem from="1520571047444" duration="5137000" />
+      <workItem from="1520571047444" duration="5197000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27075000" />
+    <option name="totallyTimeSpent" value="27135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="27" width="1680" height="1023" extended-state="6" />
@@ -798,18 +798,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendmail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sendMailChimp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendmail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding />
         </state>
       </provider>

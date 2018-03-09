@@ -18,7 +18,7 @@ $to = array('castillo8811@gmail.com');
 $to[]=$correo;
 
 $subject = 'Contact from Barron London Site. - ' . $asunto;
-$body    = 'Barron Longo: <br /><br />';
+$body    = 'Barron London: <br /><br />';
 $body .= '<strong>Name:</strong>' . $nombre .'<br /><br />';
 $body .= '<strong>Phone:</strong>' . $telefono. '<br /><br />';
 $body .= '<strong>Email:</strong>' . $correo . '<br /><br />';
