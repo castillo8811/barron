@@ -183,7 +183,7 @@
             <h2 class="featurette-heading">To Subscribe</h2>
             <form class="newsletter_form" class="form-horizontal">
               <div class="col-md-10 form-group center-block p10">
-                <input class="form-control" type="text" placeholder="Name" />
+                <input class="form-control" name="email" required data-validation="email" id="email" type="text" placeholder="Name" />
               </div>
               <div class="col-md-10 form-group center-block p10">
                 <input class="form-control" type="text" placeholder="Mail" />
@@ -271,6 +271,38 @@
                 variableWidth: false,
                 autoplay:true,
                 autoplaySpeed:5000
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $.validate({
+                form:$('form'),
+                rules: {
+                    email: {
+                        required: "Mandatory field",
+                    },
+                }
+            });
+
+            $("form").submit(function (e) {
+                console.log('enviando');
+                e.preventDefault();
+                $.ajax({
+                    method: "POST",
+                    url: "sendMailChimp.php",
+                    dataType: "json",
+                    data: {
+                        email: $("#email").val()
+                    },
+                    success: function (result) {
+                        document.getElementById("newsletter-form").reset();
+                        alert('Your Info was sent, Thanks!');
+                    }
+                });
+
+                return 0;
             });
         });
     </script>
