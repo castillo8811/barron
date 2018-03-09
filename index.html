@@ -96,9 +96,9 @@
       <div class="row">
         <div class="col-md-12 npl npr">
           <div id="home-carrusel-stage">
-            <img class="img-responsive" src="img/stock/Carrusel_principal_home.png">
-             <img class="img-responsive" src="img/stock/Carrusel_principal_home_2.png">
-            <img class="img-responsive" src="img/stock/Carrusel_principal_home_3.png">
+            <img class="img-responsive" src="img/stock/Carrusel_principal_home-collection.png">
+             <img class="img-responsive" src="img/stock/Carrusel_principal_home_discoteque.png">
+            <img class="img-responsive" src="img/stock/Carrusel_principal_home_happynoir.png">
           </div>
         </div>
       </div>
@@ -171,12 +171,12 @@
         <div class="col-md-6">
           <div class="section-inner">
             <h2 class="featurette-heading">To Subscribe</h2>
-            <form class="newsletter_form" class="form-horizontal">
+            <form id="newsletter-form" class="newsletter_form" class="form-horizontal">
               <div class="col-md-10 form-group center-block p10">
-                <input class="form-control" type="text" placeholder="Name" />
+                <input class="form-control" required type="text" placeholder="Name" />
               </div>
               <div class="col-md-10 form-group center-block p10">
-                <input class="form-control" type="text" placeholder="Mail" />
+                <input class="form-control" data-validation="email" name="email" id="email" required type="text" placeholder="Mail" />
               </div>
               <input type="submit" class="submit_button bgcolor-3" value="Join">
             </form>
@@ -233,7 +233,7 @@
             <div class="col-md-3">
               <ul class="customer">
                 <li>LEGAL<br></li>
-                <li>Policity Privacy<br></li>
+                <li><a href="/privacy-policy.html">Policity Privacy</a><br></li>
               </ul>
             </div>
             <div class="col-md-3">
@@ -266,6 +266,8 @@
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.form-validator.min.js"></script>
+
     <script>
         $(document).ready(function(){
 
@@ -300,6 +302,40 @@
                 autoplay:true,
                 autoplaySpeed:2000,
                 arrows: false,
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $.validate({
+                form:$('form'),
+                rules: {
+                    email: {
+                        required: "Mandatory field",
+                    },
+                }
+            });
+
+            $("form").submit(function (e) {
+                console.log('enviando');
+                e.preventDefault();
+                $.ajax({
+                    method: "POST",
+                    url: "sendMailChimp.php",
+                    dataType: "json",
+                    data: {
+                        email: $("#email").val()
+                    },
+                    success: function (result) {
+                        if (result.respond) {
+                            document.getElementById("newsletter-form").reset();
+                            alert('Your Info was sent, Thanks!');
+                        }
+                    }
+                });
+
+                return 0;
             });
         });
     </script>

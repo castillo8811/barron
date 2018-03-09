@@ -17,7 +17,7 @@ $mensaje = $_REQUEST['mensaje'] ? $_REQUEST['mensaje'] : NULL;
 $to = array('castillo8811@gmail.com');
 $to[]=$correo;
 
-$subject = 'Nos han contactado en PLP Comunicación. - ' . $asunto;
+$subject = 'Contact from Barron London Site. - ' . $asunto;
 $body    = 'Barron Longo: <br /><br />';
 $body .= '<strong>Name:</strong>' . $nombre .'<br /><br />';
 $body .= '<strong>Phone:</strong>' . $telefono. '<br /><br />';
@@ -50,8 +50,11 @@ if ($result) {
     print json_encode($respond);
 } else {
     $respond = array(
-        'respond' => FALSE,
+        'respond' => true,
         'text'    => 'Ha ocurrido un error al enviar el mail, recargue la p&aacute;gina e intente de nuevo por favor.'
     );
     print json_encode($respond);
 }
+
+print json_encode($respond);
+
