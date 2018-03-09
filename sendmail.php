@@ -50,11 +50,8 @@ if ($result) {
     print json_encode($respond);
 } else {
     $respond = array(
-        'respond' => true,
+        'respond' => FALSE,
         'text'    => 'Ha ocurrido un error al enviar el mail, recargue la p&aacute;gina e intente de nuevo por favor.'
     );
     print json_encode($respond);
 }
-
-print json_encode($respond);
-
