@@ -103,18 +103,18 @@
       <div class="row" id="contact-form">
         <div class="col-md-12 npl npr">
           <div  class="col-md-7 npl npr">
-            <form>
+            <form id="contact-form-element" method="POST" action="/sendmail.php">
               <div class="col-md-12 form-group center-block">
-                <input class="form-control" type="text" placeholder="Name" />
+                <input id="nombre" required name="name" class="form-control" type="text" placeholder="Name" />
               </div>
               <div class="col-md-12 form-group center-block">
-                <input class="form-control" type="text" placeholder="Mail" />
+                <input id="email" data-validation="email" required name="email" class="form-control" type="text" placeholder="Mail" />
               </div>
               <div class="col-md-12 form-group center-block">
-                <input class="form-control" type="text" placeholder="Phone" />
+                <input id="telefono" data-validation="telephone" name="telefono" class="form-control" type="text" placeholder="Phone" />
               </div>
               <div class="col-md-12 form-group center-block">
-                <textarea rows="12" class="form-control" placeholder="Comments"> </textarea>
+                <textarea id="mensaje" required name="message" rows="12" class="form-control" placeholder="Comments"> </textarea>
               </div>
               <div class="col-md-12 form-group center-block">
                 <input type="submit" class="submit_button bgcolor-3" value="Send">
@@ -137,16 +137,13 @@
           <div class="col-md-10">
             <div class="col-md-3">
               <ul class="customer">
-                <li>CUSTOMER SERVICES<br></li>
-                <li>FAQ'<br></li>
-                <li>Unsubscribe<br></li>
-                <li>Contact<br></li></ul>
+                <li><a>Subscribe</a><br></li>
+                <li><a href="/contact.html">Contact</a><br></li></ul>
             </div>
             <div class="col-md-3">
               <ul class="customer">
-                <li>ABOUT<br></li>
-                <li>Carrier<br></li>
-                <li>Press<br></li>
+                <li><a href="/contact.html">ABOUT</a><br></li>
+                <li><a href="/press.html">Press</a><br></li>
               </ul>
             </div>
             <div class="col-md-3">
@@ -158,9 +155,10 @@
             <div class="col-md-3">
               <ul class="customer">
                 <li>SOCIAL<br></li>
-                <li>Facebook<br></li>
-                <li>Pinterest<br></li>
-                <li>Instagram<br></li>
+                <li><a target="_blank" href="https://www.facebook.com/barronlondon/">Facebook</a></li>
+                <li><a target="_blank" href="https://www.pinterest.com.mx/barronlondonuk/">Pinterest</a><br></li>
+                <li><a target="_blank" href="https://www.instagram.com/barronlondonuk/">Instagram</a><br></li>
+                <li><a target="_blank" href="https://twitter.com/BarronLondon/">Twitter</a><br></li>
               </ul>
             </div>
           </div>
@@ -183,6 +181,7 @@
     <script src="js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/jquery.form-validator.min.js"></script>
 
     <script src="js/slick.min.js"></script>
     <script>
@@ -195,6 +194,53 @@
                 variableWidth: false,
                 autoplay:true,
                 autoplaySpeed:5000
+            });
+        });
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $.validate({
+                form:$('form'),
+                rules: {
+                    telefono: {
+                        matches: "[0-9]+", minlength: 10, maxlength: 10
+                    },
+                    email: {
+                        required: "Mandatory field",
+                    },
+                },
+                messages: {
+                    email: {
+                        remote: 'Please eneter a valid email',
+                    },
+                },
+            });
+
+            $("#contact-form-element").submit(function (e) {
+                console.log('enviando');
+                e.preventDefault();
+                $.ajax({
+                    method: "POST",
+                    url: "sendmail.php",
+                    dataType: "json",
+                    data: {
+                        email: $("#email").val(),
+                        nombre: $("#name").val(),
+                        telefono: $("#telefono").val(),
+                        mensaje: $("#mensaje").val()
+                    },
+                    success: function (result) {
+                        if (result.respond) {
+                            document.getElementById("contact-form-element").reset();
+                            alert('Your Info was sent, Thanks!');
+                            //$("#contacto-gracias").removeClass('hidden');
+                            //$("#contacto").fadeOut();
+                        }
+                    }
+                });
+
+                return 0;
             });
         });
     </script>

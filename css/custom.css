@@ -158,6 +158,17 @@ hr {
     clear:both;
 }
 
+#footer li{
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+
+}
+
+#footer li a{
+    color: white;
+}
+
 #footer img{
     margin-bottom: auto;
     margin-right: auto;
