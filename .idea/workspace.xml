@@ -2,123 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96707bd4-e0db-4ba2-bd0b-3f3e0ceb31ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/._aboutus.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/._css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/._img" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/._js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/css/._bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/css/._carousel.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/css/._custom.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/css/._ie10-viewport-bug-workaround.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/css/._slick-theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/css/._slick.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._.DS_Store" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._barronblack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._barronwhite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._blogbarron.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._boceto_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._boceto_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._boceto_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._carrusel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._logo_header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._puente.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._stock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/._westmister.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._b_beige.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._b_black.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._b_blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._b_red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._bag_gold.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._banner_!.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._banner_'.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._banner_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._beige_!.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._beige_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._bicolores.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._bicolores_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._bicolores_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._blog_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._blog_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._blog_video.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._bolsa_boceto.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._mascadas_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._negra.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._purple_bag.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._purplerain.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._purplerain_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._scraves_blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._scraves_pink.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._scraves_pink_purple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._scraves_pinter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/img/stock/._scraves_red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/js/._bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/js/._holder.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/js/._ie-emulation-modes-warning.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/js/._ie10-viewport-bug-workaround.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/js/._jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/__MACOSX/js/._slick.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/css/bootstrap.min.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/css/carousel.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/css/custom.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/css/ie10-viewport-bug-workaround.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/css/slick-theme.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/css/slick.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/barronblack.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/barronwhite.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/blogbarron.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/boceto_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/boceto_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/boceto_4.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/carrusel.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/logo_header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/puente.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/b_beige.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/b_black.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/b_blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/b_red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/bag_gold.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/banner_!.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/banner_'.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/banner_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/beige_!.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/beige_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/bicolores.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/bicolores_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/bicolores_3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/blog_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/blog_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/blog_video.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/bolsa_boceto.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/mascadas_1.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/negra.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/purple_bag.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/purplerain.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/purplerain_2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/scraves_blue.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/scraves_pink.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/scraves_pink_purple.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/scraves_pinter.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/stock/scraves_red.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/video.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/img/westmister.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/js/bootstrap.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/js/holder.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/js/ie-emulation-modes-warning.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/js/ie10-viewport-bug-workaround.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/js/jquery.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Archivo (1)/js/slick.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/about-us.html" afterPath="$PROJECT_DIR$/about-us.html" />
-      <change beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
-      <change beforePath="$PROJECT_DIR$/handbag.html" afterPath="$PROJECT_DIR$/handbag.html" />
-      <change beforePath="$PROJECT_DIR$/img/stock/Banner_handbags.png" afterPath="$PROJECT_DIR$/img/stock/Banner_handbags.png" />
-      <change beforePath="$PROJECT_DIR$/img/stock/happynoir.png" afterPath="$PROJECT_DIR$/img/stock/happynoir.png" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/press.html" afterPath="$PROJECT_DIR$/press.html" />
-      <change beforePath="$PROJECT_DIR$/privacy-policy.html" afterPath="$PROJECT_DIR$/privacy-policy.html" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -179,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robots.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
@@ -275,6 +159,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="154" column="28" lean-forward="false" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -310,7 +204,6 @@
         <option value="$PROJECT_DIR$/aboutus.html" />
         <option value="$PROJECT_DIR$/maintenance.html" />
         <option value="$PROJECT_DIR$/press_final.html" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/hangbag.html" />
         <option value="$PROJECT_DIR$/sendmail.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
@@ -322,6 +215,7 @@
         <option value="$PROJECT_DIR$/press.html" />
         <option value="$PROJECT_DIR$/privacy-policy.html" />
         <option value="$PROJECT_DIR$/robots.txt" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -365,6 +259,11 @@
             <path>
               <item name="barron" type="b2602c69:ProjectViewProjectNode" />
               <item name="barron" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="barron" type="b2602c69:ProjectViewProjectNode" />
+              <item name="barron" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -431,15 +330,16 @@
       <workItem from="1520654151521" duration="273000" />
       <workItem from="1520811722138" duration="831000" />
       <workItem from="1520820664733" duration="160000" />
-      <workItem from="1521766086288" duration="860000" />
+      <workItem from="1521766086288" duration="1453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32931000" />
+    <option name="totallyTimeSpent" value="33524000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="283" width="1680" height="1020" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -447,7 +347,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Viewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30684596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30684596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Utils" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -748,14 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="151" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="268" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/carousel.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -905,6 +797,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="154" column="28" lean-forward="false" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
           <folding />
         </state>
       </provider>
