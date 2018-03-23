@@ -151,6 +151,10 @@ hr {
     margin-top: 15% !important;
 }
 
+
+footer{
+    background: #000000;
+}
 #footer{
     background-color: black;
     min-height: 100px;
